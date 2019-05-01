@@ -2,7 +2,7 @@
     "name": "Blind",
     "version": "0.1",
     "manifest_version": 2,
-    "description": "Obscures the visibiliy of a website to simulate what a person with a visual imparment may experience. Logo is 'Blind' by Hat-Tech from the Noun Project",
+    "description": "Obscures the visibility of a website to simulate blindness/visual impairment. Logo is 'Blind' by Hat-Tech from the Noun Project",
     "icons": {
         "16": "images/icon-16.png",
         "32": "images/icon-32.png",
