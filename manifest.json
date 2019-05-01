@@ -1,0 +1,30 @@
+{
+    "name": "Blind",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "Obscures the visibiliy of a website to simulate what a person with a visual imparment may experience. Logo is 'Blind' by Hat-Tech from the Noun Project",
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_icon": "images/icon-16.png"
+    }
+}
